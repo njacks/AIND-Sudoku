@@ -14,7 +14,6 @@ A: This can be achieved by including the diagonal constraint as another unit in 
 diagonal_units = [[rows[i]+cols[i] for i in range(len(rows))]] + [[rows[i]+cols_reversed[i] for i in range(len(rows))]]
 
 unitlist = row_units + column_units + square_units + diagonal_units
-print s
 ```
 
 ### Install
